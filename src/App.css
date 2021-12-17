@@ -1,0 +1,39 @@
+.app {
+  height: 100%;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.large-heading {
+  font-size: 2rem;
+  color: darkblue;
+  margin: 1rem;
+}
+
+.display-container {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: solid 2px darkcyan;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: darkslateblue;
+}
+
+.card .large-heading {
+  font-size: 1.5rem;
+  color: darkgreen;
+}
