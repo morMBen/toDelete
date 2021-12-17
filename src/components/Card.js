@@ -1,5 +1,5 @@
 import React from 'react';
-import LargeHeading from './LargeHeading';
+// import LargeHeading from './LargeHeading';
 
 class Card extends React.Component {
   state = { name: 'Reut' };
@@ -25,7 +25,7 @@ class Card extends React.Component {
           click
         </button>
         {/* {this.func()} */}
-        <LargeHeading webHeadingName={this.props.webHeadingName} />
+        {/* <LargeHeading webHeadingName={this.props.webHeadingName} /> */}
         <p>{this.props.text}</p>
         {this.props.children}
       </div>
